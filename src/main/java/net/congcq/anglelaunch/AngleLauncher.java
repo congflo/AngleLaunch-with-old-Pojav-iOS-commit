@@ -69,9 +69,6 @@ public class AngleLauncher extends UIApplicationDelegateAdapter {
         System.setProperty("prism.verbose", "true");
         System.setProperty("glass.platform", "ios");
 
-        System.setProperty("org.lwjgl.util.Debug", "true");
-        System.setProperty("org.lwjgl.util.DebugLoader", "true");
-
         System.out.println("Starting UI...");
         NSAutoreleasePool pool = new NSAutoreleasePool();
         UIApplication.main(args, null, AngleLauncher.class);
